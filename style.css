@@ -1,0 +1,219 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  color: #fff;
+}
+main {
+  display: grid;
+  place-items: center;
+}
+
+/*carousel*/
+
+.carousel-item {
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 270px;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 78%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: 0.2rem 1rem;
+}
+
+.nav-link.active,
+.nav-link:focus {
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+video {
+  width: 500px;
+  border-radius: 12px;
+}
+
+/*-fim do carousel*/
+/* cards*/
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+body {
+  /* solid background */
+  background: rgb(0, 212, 255);
+
+  /* gradient background*/
+  background: linear-gradient(
+    45deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(11, 3, 45, 1) 100%
+  );
+
+  /* photo background */
+  background-image: url(https://images.unsplash.com/photo-1619204715997-1367fe5812f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1889&q=80);
+  background-size: cover;
+}
+
+.vidro {
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(15px);
+}
+.carw {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 38px;
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-image {
+  background-position: center;
+  background-size: cover;
+  height: 190px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+}
+
+h1 {
+  font-family: "Righteous", sans-serif;
+  color: rgba(255, 255, 255, 0.98);
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+p {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.button-wrapper {
+  margin-top: 18px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.outline {
+  background: transparent;
+  color: rgba(0, 212, 255, 0.9);
+  border: 1px solid rgba(0, 212, 255, 0.6);
+  transition: all 0.3s ease;
+}
+
+.outline:hover {
+  transform: scale(1.125);
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+}
+
+.fill {
+  background: rgba(0, 212, 255, 0.9);
+  color: rgba(255, 255, 255, 0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.fill:hover {
+  transform: scale(1.125);
+  border-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
+  transition: all 0.3s ease;
+}
+.button-wrapper button {
+  margin: 5px 0px 5px 0px;
+  font-weight: 720;
+}

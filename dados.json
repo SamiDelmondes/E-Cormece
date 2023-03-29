@@ -1,0 +1,40 @@
+{
+  "produtos": [
+    {
+      "nome": "LANCER EVO",
+      "descricao": "Lancer 2.0 Evolution X jonh Easton 4x4 Turbo intercooler<br> • Branco <br>  • Câmbio Automatizado <br>• De 0 a 100 km/h 5,9 s<br>• 5.000km",
+      "preco": 36396.8,
+      "imagem": "img/Lancer Evolution.jpg"
+    },
+    {
+      "nome": "FORD MUSTANG",
+      "descricao": "Mustang 5.0 V8 GT Premium Selectshift 2018<br>Mustang 5.0 V8 GT Premium Selectshift 2018<br> • Preto <br> • Câmbio Automático <br>• De 0 a 100 km/h 4,3 s<br> • 16.000km",
+      "preco": 77401.28,
+      "imagem": "img/ford Mustang.jpg"
+    },
+    {
+      "nome": "PORSCHE MACAN",
+      "descricao": "Porsche Macan 2.0 2021<br>• Cinza(Giz)  <br>• Câmbio Automatizado <br>• De 0 a 100 km/h 6,7<br> •17.000km ROdados",
+      "preco": 83246.06,
+      "imagem": "img/Porsche Macan.jpg"
+    },
+    {
+      "nome": "PORSCHE BOXER",
+      "descricao": "Porsche Boxster 3.8 H6 Spyder 2016<br> • Preto <br> • Câmbio Manual <br>• De 0 a 100 km/h 4,5<br>• 36.000km ROdados",
+      "preco": 160042.34,
+      "imagem": "img/boxer2.jpg"
+    },
+    {
+      "nome": "AUDI TT",
+      "descricao": "Audi TT 2.0 TFSI Coupé Ambition 2017<br>• Branco <br>• Câmbio Automatizado  <br> • De 0 a 100 km/h 5,9<br> • 28.000km ROdados",
+      "preco": 51882.86,
+      "imagem": "img/TT.jpg"
+    },
+    {
+      "nome": "VELAR",
+      "descricao": "Range Rover Velar 3.0 V6 P380 R-Dynamic Hse 2018<br> • Preto <br> • Câmbio Automático <br>• De 0 a 100 km/h 5,7 s<br>• 12.000km",
+      "preco": 120980.64,
+      "imagem": "img/velar.jpg"
+    }
+  ]
+}
